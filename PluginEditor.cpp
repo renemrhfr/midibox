@@ -15,7 +15,7 @@ MidiCCToolAudioProcessorEditor::MidiCCToolAudioProcessorEditor(MidiCCToolAudioPr
     addAndMakeVisible(subtitleLabel);
 
     copyrightLabel.setFont(juce::Font(12.0f));
-    copyrightLabel.setText("0.0.1 by renemrhfr", juce::dontSendNotification);
+    copyrightLabel.setText("0.0.2 by renemrhfr", juce::dontSendNotification);
     copyrightLabel.setColour(juce::Label::textColourId, juce::Colour(245, 158, 11));
     copyrightLabel.setJustificationType(juce::Justification::right);
     addAndMakeVisible(copyrightLabel);
