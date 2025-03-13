@@ -1,0 +1,5 @@
+/JUCE/**
+cmake-build-debug/**
+cmake-build-release/**
+/JuceLibraryCode/**
+/.idea/
