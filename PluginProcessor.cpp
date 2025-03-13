@@ -21,11 +21,6 @@ void MidiCCToolAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer,
         return;
     }
 
-    // Only proceed if we have incoming MIDI messages
-    if (midiMessages.isEmpty()) {
-        return; // No MIDI input, don't emit anything
-    }
-
     // Collect incoming Midi Info
     juce::MidiBuffer tempMidi;
     for (const auto metadata : midiMessages)
